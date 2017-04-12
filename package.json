@@ -1,0 +1,24 @@
+{
+  "name": "snapchatNavigation",
+  "version": "1.0.0",
+  "description": "## Technologies - Node.js - Express - EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fofokilleuz/snapchatNavigation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fofokilleuz/snapchatNavigation/issues"
+  },
+  "homepage": "https://github.com/fofokilleuz/snapchatNavigation#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
