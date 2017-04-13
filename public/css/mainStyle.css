@@ -1,4 +1,4 @@
-/******* pt-page ******/
+/******* Commom *******/
 html, body {
   height: 100%;
   margin: 0;
@@ -6,6 +6,18 @@ html, body {
   overflow: hidden;
 }
 
+.content {
+  text-align: center;
+}
+
+.centerText {
+  position: absolute;
+  left: 45%;
+  transform: translateX(-45%);
+  top: 45%;
+}
+
+/******* pt-page ******/
 .pt-perspective {
 	position: relative;
 	width: 100%;
@@ -13,7 +25,7 @@ html, body {
 	perspective: 1200px;
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
-	/*transform-style: preserve-3d;*/
+	transform-style: preserve-3d; /* résoud un bug non systématique de blur sur IE */
 }
 
 .pt-page {
@@ -88,13 +100,13 @@ html, body {
 .btnUp {
     position: absolute;
     top: 1%;
-    left: 45%;
+    left: 43%;
 }
 
 .btnBottom {
     position: absolute;
     bottom: 1%;
-    left: 45%;
+    left: 43%;
 }
 
 .btnRight {
