@@ -7,35 +7,42 @@
     <title>Node.js Blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- TODO : create a stylesheet -->
-    <style>
-        body {
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        .jumbotron {
-          margin-top: 10px;
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
-        <%- include('partials/btnUp') %>
-        <div class="jumbotron">
-            <h1>Content Here</h1>
-            <p class="lead">Lorem ipsum...</p>
+      <div id="pt-main" class="pt-perspective">
+
+        <!-- MAIN PAGE -->
+      	<div class="pt-page pt-page-1">
+      		<h1><span>A collection of</span><strong>Page</strong> Transitions</h1>
+          <p>Main page</p>
+      	</div>
+
+        <!-- UP Page -->
+      	<div class="pt-page pt-page-2">
+          <%- include('up') %>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="list-group">
-                  <!-- loop over blog posts and render them -->
-                  kikou
-                </div>
-            </div>
+      	<!-- DOWN Page -->
+        <div class="pt-page pt-page-3">
+          <h1><span>A collection of</span><strong>Page</strong> Transitions</h1>
+          <p>Down page</p>
         </div>
-        <%- include('partials/btnDown') %>
+
+        <!-- LEFT Page -->
+        <div class="pt-page pt-page-4">
+          <h1><span>A collection of</span><strong>Page</strong> Transitions</h1>
+          <p>Left page</p>
+        </div>
+
+        <!-- RIGHT Page -->
+        <div class="pt-page pt-page-2">
+          <h1><span>A collection of</span><strong>Page</strong> Transitions</h1>
+          <p>Right page</p>
+        </div>
+
+      </div>
     </div>
 </body>
 
