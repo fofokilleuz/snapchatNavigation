@@ -1,7 +1,9 @@
 /* https://macarthur.me/typeit/ */
 
 $('#mainText').typeIt({
-     strings: 'I love when the text is in the middle',
-     speed: 70,
+    strings: ["COOKING", "DRAWING", "LAUGHING", "DANSING", "..."],
+     speed: 150,
+     breakLines: false,
+     loop: true,
      autoStart: false
 });
