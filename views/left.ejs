@@ -1,4 +1,89 @@
-<div class="container">
-<!-- button to go home -->
-      <input type="image" src="/img/right-chevron.png" id="Page-Transition" class="btn btnRight" onClick="goFromRightToLeft(0)" width="50px"/>
-</div>
+<div class="container-fluid">
+    <!-- button to go home -->
+    <input type="image" src="/img/right-chevron.png" id="Page-Transition" class="btn btnRight" onClick="goFromRightToLeft(0)" width="50px"/>
+
+    <div class="row">
+      <div class="col-sm-12">
+
+        <!--tabs-->
+        <div class="tabs">
+
+          <!--menu-->
+          <div class="row">
+              <ul id="resizetab" class="nav nav-tabs">
+                <li class="active"><a href="#actual" data-toggle="tab"><span class="glyphicon glyphicon-heart"></span></a></li>
+                <li><a href="#b" data-toggle="tab"><span class="glyphicon glyphicon-star"></span></a></li>
+                <li><a href="#c" data-toggle="tab"><span class="glyphicon glyphicon-headphones"></span></a></li>
+                <li><a href="#d" data-toggle="tab"><span class="glyphicon glyphicon-time"></span></a></li>
+                <li><a href="#e" data-toggle="tab"><span class="glyphicon glyphicon-calendar"></span></a></li>
+                <li><a href="#f" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
+              </ul>
+          </div><!-- /row -->
+
+          <!--tab content-->
+          <div class="tab-content">
+
+            <!--pane 1-->
+            <div class="tab-pane fade in active" id="actual">
+
+              <!--title-->
+              <h3 class="tab-title">Backelite - Stagiaire consultante technique</h3>
+              <!--dates-->
+              <p class="tab-dates">
+                <span class="tab-datebegin">
+                  15 février 2017
+                </span>
+                <span class="tab-dateend">
+                  15 août 2017
+                </span>
+              </p>
+              <!--skills-->
+              <span class="tab-skills">
+
+              </span>
+
+            </div>
+
+            <!--pane 2-->
+            <div class="tab-pane fade" id="b">
+              <!--title-->
+              <h3 class="tab-title">Chèque Santé - stagiaire développeuse</h3>
+              <!--dates-->
+              <p class="tab-dates">
+                <span class="tab-datebegin">
+                  juin 2016
+                </span>
+                <span class="tab-dateend">
+                  août 2016
+                </span>
+              </p>
+            </div>
+
+            <!--pane 3-->
+            <div class="tab-pane fade" id="c">
+              <!--title-->
+              <h3 class="tab-title">Job étudiant - l'intérim</h3>
+            </div>
+
+            <!--pane 4-->
+            <div class="tab-pane fade" id="d">
+              <!--title-->
+              <h3 class="tab-title">Job d'été - Auchan</h3>
+            </div>
+            <!--pane 5-->
+            <div class="tab-pane fade" id="e">
+              <!--title-->
+              <h3 class="tab-title">Job d'été - Captain' Jako</h3>
+            </div>
+            <!--pane 6-->
+            <div class="tab-pane fade" id="f">
+              <!--title-->
+              <h3 class="tab-title">Job d'été - Autres...</h3>
+            </div>
+        </div><!-- /tabcontent -->
+      </div><!-- /tabs -->
+    </div><!-- /col -->
+  </div><!-- /row -->
+
+
+</div><!-- /container-fluid -->

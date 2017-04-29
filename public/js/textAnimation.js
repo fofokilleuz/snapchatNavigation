@@ -1,7 +1,7 @@
 /* https://macarthur.me/typeit/ */
 
 $('#mainText').typeIt({
-    strings: ["COOKING", "DRAWING", "LAUGHING", "DANSING", "..."],
+    strings: ["<span class='bold'>COOKING</span>", "DRAWING", "LAUGHING", "DANSING", "..."],
      speed: 150,
      breakLines: false,
      loop: true,
