@@ -1,5 +1,8 @@
 /* import font */
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 /******* Commom *******/
 html, body {
@@ -101,7 +104,7 @@ p, div {
 }
 
 .pt-page-4 {
-	 background: none repeat scroll 0 0 #FFFFFF;
+	 background: none repeat scroll 0 0 #FF9800;
 }
 
 .pt-page-5 {
@@ -144,12 +147,57 @@ p, div {
     left: 1%;
 }
 
-/***** right-screen *******/
+/***** left-screen *******/
 .tab-title{
   text-align: center;
+  font-family: 'Oswald';
+  color: #FEFCFF;
 }
+
 .tab-dates{
   text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  color: #FEFCFF;
+  font-weight: lighter;
 }
-.tab-dateend{
+
+
+@media (max-width: 768px) {
+  .tab-title{
+    font-size: 30px;
+  }
+  .tab-dates{
+    font-size: 15px;
+  }
 }
+
+@media (min-width: 769px) {
+  .tab-title{
+    font-size: 72px;
+  }
+  .tab-dates{
+    font-size: 30px;
+  }
+}
+
+.nav-tabs>.active>a {
+  background-color: #FF9800 !important;
+  border-bottom-color: #FF9800 !important;
+  border-top-color: #FF8300 !important;
+  border-left-color: #FF8300 !important;
+  border-right-color: #FF8300 !important;
+}
+.nav-tabs>li>a {
+  background-color: #FF9800 !important;
+  border-bottom-color: #FF8300 !important;
+}
+.nav-tabs>li>a:hover {
+  background-color: #FF8300 !important;
+  border-bottom-color: #FF9800 !important;
+  border-top-color: #FF8300 !important;
+  border-left-color: #FF8300 !important;
+  border-right-color: #FF8300 !important;
+}
+
+/*.nav-tabs>.active>a:focus*/
